@@ -1,0 +1,364 @@
+@font-face {
+  font-family: Open Sans Regular;
+  src: url(../fonts/OpenSans-Regular.woff);
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Open Sans Bold;
+  src: url(../fonts/OpenSans-Bold.woff);
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Open Sans Regular, Arial, sans-serif;
+  text-transform: uppercase;
+  line-height: normal;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none; 
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.header {
+  background-image: url(../images/football_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
+  background-color: #010102;
+  position: relative;
+  padding-top: 31px;
+  padding-bottom: 80px;
+}
+
+.header::after {
+  content: "";
+  background-color: #0a0e34;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+/*.header_logo {
+  display: block;
+  width: 41.5%; /*133*/
+  /*height: 11.25%; /*36*/
+  /*fill: #ffffff;*/
+  /*position: relative;*/
+  /*z-index: 1;*/
+  /*padding: 33px 10px 116px 10px /*3.3rem 1rem 11.6rem 1rem; /*5.8vh 1.76vh 20.4vh 1.76vh;
+  margin: 0 auto;
+}*/
+
+.logo_box_header {
+  text-align: center;
+  margin-bottom: 116px;
+}
+
+.logo_text {
+  width: 134px;
+  height: 38px;
+  fill: #ffffff;
+  position: relative;
+  z-index: 1; 
+}
+
+.title {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  color: #ffffff;
+  font-size: 28px;
+  font-family: Open Sans Bold;
+  position: relative;
+  z-index: 1;
+  padding-left: 6.25%;
+  margin-bottom: 83px;
+}
+
+.subject {
+  padding-left: 20%; 
+  padding-top: 20px;
+}
+
+.store_list {
+  width: 280px;
+  margin: 0 auto;
+}
+
+.store_list_item {
+  display: block;
+  padding: 5px 0 5px 0; 
+  background-color: #5e42b0;
+  border: 1px solid #5e42b0;
+  border-radius: 30px;
+  position: relative;
+  z-index: 1;
+  font-size: 8px;
+  color: #ffffff;
+  padding-left: 112px;
+}
+
+.store_list_item:first-child {
+  margin-bottom: 13px;
+}
+
+.store_list_item_bold {
+  font-weight: 700;
+}
+
+.app_store_svg {
+  width: 20px;
+  height: 24px;
+  fill: #ffffff;
+  position: absolute;
+  top: 3px;
+  left: 82px;
+}
+
+.google_play_svg {
+  width: 22px;
+  height: 24px;
+  fill: #ffffff;
+  position: absolute;
+  top: 4px;
+  left: 82px;
+}
+
+.section_title {
+  font-size: 50px;
+  color: #e7e7e7;
+  font-family: Open Sans Bold;
+  padding-left: 6.25%;
+  margin: 8px 0 228px 0;
+}
+
+.athlets-preview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic_athlets {
+  width: 190px;
+  position: absolute;
+  top: -222px;
+}
+
+.articale_connection {
+  background-color: #fafafa;
+  padding: 80px 20px 50px 20px;
+}
+
+.section_subtitle {
+  display: flex;
+  align-items: center;
+  margin-bottom: 17px;
+}
+
+.number_articale {
+  font-size: 14px;
+  color: #000000;
+  font-family: Open Sans Bold;
+}
+
+.number_articale::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 4px;
+  background-color: #5e42b0;
+  border: 1px solid #5e42b0;
+  border-radius: 10px;
+}
+
+.decorative_element_03::after {
+  background-color: #ffffff;
+  border: 1px solid #ffffff;
+}
+
+.subtitle {
+  font-size: 23px;
+  color: #c1c1c1;
+  font-family: Open Sans Bold;
+  padding-left: 10px;
+}
+
+.text {
+  font-size: 15px;
+  text-transform: none;
+  padding-top: 8px;
+}
+
+.articale_collaboration {
+  background-color: #f5f4f9;
+  padding: 56px 20px 50px 20px;
+}
+
+.articale_growth {
+  background-color: #5e42b0;
+  padding: 56px 20px 50px 20px;
+}
+
+.players-preview {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pic_players {
+  width: 302px;
+  position: absolute;
+  top: -218px;
+}
+
+.articale_growth_players {
+  background-color: #090c35;
+  padding: 50px 20px 50px 20px;
+}
+
+.number_03 {
+  color: #8765dd;
+}
+
+.text_growth_players {
+  color: #ffffff;
+}
+
+.articale {
+  position: relative;
+}
+
+.content {
+  margin: 30px 20px 78px 20px;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 70px;
+  background-color: #5e42b0;
+  border: 1px solid #5e42b0;
+
+  font-size: 1.4rem;/*14px;*/
+  color: #f5f6f7;
+  font-family: Open Sans Bold;
+  position: absolute;
+  transform: translate(28%, -85%);
+}
+
+.paragraph::after {
+  content: "";
+  display: block;
+  width: 15px;
+  height: 4px;
+  background-color: #8f7bc8;
+  border: 1px solid #8f7bc8;
+  border-radius: 10px;
+}
+
+.heading {
+  font-size: 28px;
+  color: #e7e7e7;
+  font-family: Open Sans Bold;
+  margin-bottom: 15px;
+}
+
+.lead {
+  font-size: 16px;
+  text-transform: none;
+  padding-top: 5px;
+}
+
+.footer {
+  background-image: url(../images/game_767.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #010102;
+  position: relative;
+  padding-bottom: 10px;
+  padding-top: 97px;
+}
+
+.footer::after {
+  content: "";
+  background-color: #0a0e34;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.9;
+}
+
+.footer_icon {
+  width: 72px;
+  height: 73px;
+  background: linear-gradient(-90deg, #50329c, #7751db);  
+  position: relative;
+  z-index: 1;
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.footer_logo {
+  fill: #ffffff;
+  width: 56px;
+  height: 47px;
+}
+
+.footer_title {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  font-size: 32px;
+  font-family: Open Sans Bold;
+  color: #ffffff;
+  margin-top: 54px;
+  margin-bottom: 69px;
+  position: relative;
+  z-index: 1;
+}
+
+.footer_title_2 {
+  font-size: 14px;
+  color: #9b8ec1;
+}
+
+.logo_box_footer {
+  text-align: center;
+  margin-top: 78px;
+}
