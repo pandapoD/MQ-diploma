@@ -36,14 +36,17 @@ img {
 }
 
 .header {
+  height: 100vh;
+  box-sizing: border-box;
+  min-width: 320px;
   background-image: url(../images/football_767.jpg);
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
   background-color: #010102;
   position: relative;
-  padding-top: 31px;
-  padding-bottom: 80px;
+  padding-top: 5.46vh;/*31px;*/
+  padding-bottom: 14.08vh;/*80px;*/
 }
 
 .header::after {
@@ -59,7 +62,7 @@ img {
 
 .logo_box_header {
   text-align: center;
-  margin-bottom: 116px;
+  margin-bottom: 20.42vh;/*116px;*/
 }
 
 .logo_text {
@@ -234,14 +237,17 @@ img {
 }
 
 .footer {
+  height: 100vh;
+  box-sizing: border-box;
+  min-width: 320px;
   background-image: url(../images/game_767.jpg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   background-color: #010102;
   position: relative;
-  padding-bottom: 10px;
-  padding-top: 97px;
+  padding-bottom: 1.76vh; /*10px;*/
+  padding-top: 17.08vh; /*97px;*/
 }
 
 .footer::after {
@@ -288,17 +294,17 @@ img {
 
 .logo_box_footer {
   text-align: center;
-  margin-top: 78px;
+  margin-top: 13.73vh; /*78px;*/
 }
 
 @media (max-width: 640px) {
   .title {
     padding-left: 6.25%;
-    margin-bottom: 83px;
+    margin-bottom: 14.61vh;/*83px;*/
   }
 
   .subject {
-    padding-top: 20px;
+    padding-top: 3.52vh;/*20px;*/
     padding-left: 20%; 
   }
 
@@ -308,7 +314,7 @@ img {
   }
 
   .store_list_item:first-child {
-    margin-bottom: 13px;
+    margin-bottom: 2.29vh;/*13px;*/
   }
 
   .athlets-preview {
@@ -372,20 +378,20 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-top: 54px;
-    margin-bottom: 69px;
+    margin-top: 9.51vh; /*54px;*/
+    margin-bottom: 12.15vh; /*69px;*/
   }
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
   .header {
     background-image: url(../images/football_1280.jpg);
-    padding-top: 35px;
-    padding-bottom: 88px;
+    padding-top: 3.65vh;/*35px;*/
+    padding-bottom: 9.18vh; /*88px;*/
   }
 
   .logo_box_header {
-    margin-bottom: 170px;
+    margin-bottom: 15.3vh;/*147px;*/
   }
 
   .logo_text {
@@ -396,7 +402,7 @@ img {
   .title {
     font-size: 64px;
     padding-left: 12.1%;
-    margin-bottom: 305px;
+    margin-bottom: 28.4vh;/*272px;*/
   }
 
   .subject {
@@ -407,7 +413,7 @@ img {
   .store_list {
     width: 85%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
   }
 
   .store_list_item {
@@ -424,7 +430,7 @@ img {
   }
 
   .store_list_item:first-child {
-    margin-right: 15px;
+    margin-right: 1.56vh;/*15px;*/
   }
 
   .app_store_svg {
@@ -561,13 +567,13 @@ img {
 @media (min-width: 961px) {
   .header {
     background-image: url(../images/football_1920.jpg);
-    padding-top: 43px;
-    padding-bottom: 109px;
-    margin-bottom: 20px;
+    padding-top: 4.48vh;/*43px;*/
+    padding-bottom: 11.35vh;/*109px;*/
+    margin-bottom: 2.08vh;/*20px;*/
   }
 
   .logo_box_header {
-    margin-bottom: 280px;
+    margin-bottom: calc(17.7vmin - 70px);/*28.12vh;/*270px;*/
   }
 
   .logo_text {
@@ -576,10 +582,10 @@ img {
   }
 
   .title {
-    font-size: 90px;
+    font-size: calc(2.26vw + 47px);/*90px;*/
     margin-left: 10%;
     margin-right: 10%;
-    margin-bottom: 213px;
+    margin-bottom: calc(11.8vmin - 13.4px);/*22.19vh;/*213px;*/
     letter-spacing: 4px;
   }
 
@@ -707,11 +713,11 @@ img {
   }
 
   .paragraph {
-    width: 8.75%;/*168px;*/
+    width: 168px;
     height: 155px;
     font-size: 24px;
     top: calc(50% - 155px);
-    left: calc(50% - 4.375%);
+    left: calc(50% - 84px);
   }
 
   .paragraph::after {
@@ -727,7 +733,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-left: 6.8vw;
+    padding-left: calc(84px + 2.4vw);/*130px;*/
     padding-right: 9.4vw;
   }
 
@@ -742,7 +748,7 @@ img {
 
   .content_left {
     padding-left: 9.4vw;
-    padding-right: 6.8vw;
+    padding-right: calc(84px + 2.4vw);/*130px;*/
   }
 
   .img-preview_right {
@@ -759,15 +765,15 @@ img {
 
   .footer {
     background-image: url(../images/game_1920.jpg);
-    padding-bottom: 50px;
-    padding-top: 226px;
+    padding-bottom: 5.2vh;/*50px;*/
+    padding-top: 23.5vh;/*226px;*/
   }
 
   .footer_logo_title {
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    margin-bottom: 155px;
+    margin-bottom: 16.14vh;/*155px;*/
   }
 
   .footer_icon {
@@ -795,7 +801,7 @@ img {
   }
 
   .logo_box_footer {
-    margin-top: 261px;
+    margin-top: 27.19vh;/*261px;*/
   }
 
   .logo_text {
