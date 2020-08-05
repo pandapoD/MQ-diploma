@@ -65,7 +65,6 @@ img {
 
 .logo_box_header {
   text-align: center;
-  margin-bottom: 20.42vh;/*116px;*/
 }
 
 .logo_text {
@@ -306,6 +305,10 @@ img {
 @media (max-width: 640px) {
   .header {
     min-height: 480px;
+  }
+
+  .logo_box_header {
+    margin-bottom: 20.42vh;/*116px;*/
   }
 
   .title {
@@ -578,7 +581,7 @@ img {
 
 @media (min-width: 961px) {
   .header {
-    min-height: 768px;
+    min-height: 600px;
     background-image: url(../images/football_1920.jpg);
     padding-top: 4.48vh;/*43px;*/
     padding-bottom: 11.35vh;/*109px;*/
@@ -586,7 +589,7 @@ img {
   }
 
   .logo_box_header {
-    margin-bottom: 26vh;/*270px;*/
+    /*margin-bottom: 26vh;/*270px;*/
   }
 
   .logo_text {
